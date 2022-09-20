@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tela cadastro HyperX</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <h1>Cadastro <span>HyperX</span></h1>
+        <form>
+            <div>
+                <label for="Nome">Nome</label>
+                <input type="text" name="Nome" required/>
+                <p></p>
+
+                <label for="userEmail">Email</label>
+                <input type="email" name="userEmail" required/>
+                <p></p>
+
+                <label for="userPassword">Senha</label>
+                <input type="password" name="userPassword" required/>
+                <p></p>
+
+                <label for="news">Deseja receber as novidades?</label>
+                <input type="checkbox" name="news" />
+                <p></p>
+
+                <label>Sexo: </label>
+                <label><strong>Masculino</strong></label>
+                <input type="radio" name="male" />
+                <label><strong>Feminino</strong></label>
+                <input type="radio" name="female" />
+                <p></p>
+
+                <label for="assinatura">Qual será sua assinatura?</label>
+                <select name="assinatura" class="assinatura">
+                    <option value="diamond">Diamond</option>
+                    <option value="platinum">Platinum</option>
+                    <option value="gold">Gold</option>
+                </select>
+                <p></p>
+
+                <button>Cadastrar</button>
+        </form>
+        </div>
+    </body>
+</html>
